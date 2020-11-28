@@ -5,7 +5,7 @@ import 'local_repository.dart';
 abstract class Repository<T> {
   LocalRepository localRepository;
 
-  Future<dynamic> insert(T item);
+ // Future<dynamic> insert(T item);
 
   Future<dynamic> update(T item);
 
